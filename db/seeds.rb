@@ -7,3 +7,5 @@
 #   Character.create(name: "Luke", movie: movies.first)
 actor = Actor.new({ first_name: "Benedict", last_name: "Cumberbatch", known_for: "Sherlock" })
 actor.save
+movie = Movie.new({ title: "knives out", year: 2019, plot: "a murder mystery" })
+movie.save
